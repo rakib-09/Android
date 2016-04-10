@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="Name">NAME</string>
+    <string name="SurName">SURNAME</string>
+    <string name="Marks">MARKS</string>
+    <string name="addData">ADD DATA</string>
+    <string name="showData">SHOW DATA</string>
+    <string name="update">UPDATE</string>
+    <string name="id">ID</string>
+    <string name="delete">DELETE</string>
+</resources>

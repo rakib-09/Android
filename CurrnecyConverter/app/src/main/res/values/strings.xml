@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Currnecy Converter</string>
+    <string name="title">Currency Converter</string>
+    <string-array name="currency">
+        <item>Dollar</item>
+        <item>Taka</item>
+        <item>Rupee</item>
+
+    </string-array>
+    <string name="btn_name">CONVERT !</string>
+    <string name="result"></string>
+
+</resources>

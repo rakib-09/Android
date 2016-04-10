@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Activity_Bio</string>
+    <string name="title">Movies Based On WORLD WAR II</string>
+    <string name="ryan">Saving Private Ryan</string>
+    <string name="dasboot">Das Boot</string>
+    <string name="pianist">The Pianist</string>
+    <string name="Schlidnerlist">Schlidner List</string>
+    <string name="downfall">Down Fall</string>
+    <string name="greatEscape">The Great Escape</string>
+    <string name="riverKwai">The Bridge Over The River of Kwai</string>
+    <string name="nuremberg">Justice at NuremBerg</string>
+    <string name="redline">The Thin Red Line</string>
+    <string name="title_activity_activity_second">Activity_second</string>
+    <string name="picture">picture</string>
+    <string name="name"></string>
+    <string name="rating">Rating:</string>
+    <string name="director">Director:</string>
+    <string name="cast">Cast:</string>
+
+</resources>

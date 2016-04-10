@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="button">Convert !</string>
+    <string-array name="spinner">
+        <item value="taka">taka</item>
+        <item value="rupee">rupee</item>
+        <item value="dollar">dollar</item>
+    </string-array>
+   <string name="textView">Nothing</string>
+</resources>

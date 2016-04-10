@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TempConv</string>
+    <string name="title">Temp Converter</string>
+    <string name="txt_hints">Enter Tempareture</string>
+    <string name="c_title">Celsius</string>
+    <string name="f_title">Fahrenheit</string>
+    <string name="result"></string>
+
+
+</resources>

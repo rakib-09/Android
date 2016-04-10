@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/wallpaper"
+    tools:context="developer_lab.com.activity_bio.MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:textColor="@color/title"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/ryan"
+        android:id="@+id/privateRyan"
+        android:contentDescription="@string/ryan"
+        android:layout_alignTop="@+id/pianist"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/pianist"
+        android:id="@+id/pianist"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/pianist"/>
+
+
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/list"
+        android:background="@drawable/list"
+        android:contentDescription="@string/Schlidnerlist"
+        android:layout_alignTop="@+id/pianist"
+        android:layout_alignStart="@+id/kwai" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/greatEscape"
+        android:background="@drawable/escape"
+        android:contentDescription="@string/greatEscape"
+        android:layout_alignTop="@+id/redLine"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/redLine"
+        android:background="@drawable/redline"
+        android:contentDescription="@string/redline"
+        android:layout_alignTop="@+id/kwai"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/kwai"
+        android:id="@+id/kwai"
+        android:contentDescription="@string/riverKwai"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+    <!--this one-->
+    <ImageView
+
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/down"
+        android:id="@+id/downFall"
+        android:contentDescription="@string/downfall"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentEnd="false" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/das"
+        android:id="@+id/dasBoot"
+        android:contentDescription="@string/dasboot"
+        android:layout_alignTop="@+id/downFall"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/nuremberg"
+        android:id="@+id/nuremberg"
+        android:layout_alignTop="@+id/dasBoot"
+        android:layout_alignStart="@+id/kwai"
+        android:contentDescription="@string/nuremberg"/>
+</RelativeLayout>
