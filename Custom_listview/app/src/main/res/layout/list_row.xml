@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_bg"
+
+    android:layout_centerHorizontal="true"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thumb"
+        android:padding="3dp"
+        android:layout_alignParentLeft="true"
+        android:background="#ffeeeade"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/bookpic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/logo"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bookID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_alchemist"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_alignTop="@id/thumb"
+        android:layout_toRightOf="@id/thumb"
+        android:layout_toLeftOf="@id/pageID"
+
+
+        />
+    <TextView
+        android:id="@+id/authorID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paulo_coelho"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/bookID"
+        android:layout_toRightOf="@id/thumb"
+        android:layout_marginTop="2dp"
+
+        />
+    <TextView
+        android:id="@+id/pageID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_230_pages"
+        android:textSize="14sp"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/bookID"
+
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/bookID"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+
+        />
+    <ImageView
+        android:id="@+id/playID"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:layout_below="@id/pageID"
+        android:background="@drawable/play"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/playval" />
+
+
+</RelativeLayout>

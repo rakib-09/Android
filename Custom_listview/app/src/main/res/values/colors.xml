@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grad_start">#f1f1f2</color>
+    <color name="grad_center">#e7e7e8</color>
+    <color name="grad_last">#cfcfcf</color>
+    <color name="hover_start">#ff50c552</color>
+    <color name="hover_center">#18db34</color>
+    <color name="hover_last">#ff88b9f3</color>
+
+    <color name="div">#ff71b59c</color>
+</resources>
