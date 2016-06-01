@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"WishList "</string>
+    <string name="title">"My Diary"</string>
+    <string name="hintTitle">"Enter Title"</string>
+    <string name="hintWish">Enter your Notes..</string>
+    <string name="save">SAVE</string>
+</resources>
