@@ -83,9 +83,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0,0)).title("Hello"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+//        LatLng sydney = new LatLng(-34, 151);
+//        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
     @Override
@@ -99,7 +99,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.clear();
         mMap.addMarker(new MarkerOptions().position(new LatLng(lat,lng)).title("Your Location"));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(lat,lng),25));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(lat,lng),18));
 
         Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
 
